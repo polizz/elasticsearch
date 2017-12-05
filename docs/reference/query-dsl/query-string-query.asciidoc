@@ -35,7 +35,7 @@ GET /_search
 --------------------------------------------------
 // CONSOLE
 
-... will be splitted in `new`, `york` and `city` and each part is analyzed independently.
+... will be split into `new`, `york` and `city` and each part is analyzed independently.
 When multiple fields are provided it is also possible to modify how the different
 field queries are combined inside each textual part using the `type` parameter.
 The possible modes are described <<multi-match-types, here>> and the default is `best_fields`.
